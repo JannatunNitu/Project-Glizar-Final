@@ -16,6 +16,9 @@
   --fest-dollar-bg:#DBEAFE;
   --get-ticket-bg:#60A5FA;
   --create-event-form-broder:#D1D5DB;
+  --get-start-btn-border:#082F49;
+  --event-user-data-bg:rgba(217, 217, 217, 0.20);
+  --event-user-option-bg:rgba(255, 255, 255, 0.80);
 }
 /* root end */
 
@@ -819,5 +822,75 @@ line-height: 28px;
 }
 #create-new-event .create-event-form .create-event .create-event-user-form .input-group-texarea{
   margin-top: 33px;
+  margin-bottom: 32px;
+}
+#create-new-event .create-event-form .create-event .create-event-user-form .get-start-btn{
+  font-size: 14px;
+  color: var(--black);
+  font-weight: 700;
+  line-height: 20px; 
+  background-color: var(--bnner-text);
+  border: 1px solid var(--get-start-btn-border);
+  padding: 12px 32px;
+  border-radius: 30px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 /******************************** Create New Event End ********************************/
+
+/******************************** Event created successfully start ********************************/
+#create-new-event .create-event-form .create-event  .event-created-successfully img{
+  text-align: center;
+  margin-top: 80px;
+}
+#create-new-event .create-event-form .create-event  .event-created-successfully h3{
+  font-size: 26.349px;
+  color: var(--black);
+  font-weight: 700;
+  line-height: 40.987px;
+  margin-top: 20px;
+}
+/******************************** Event created successfully end ********************************/
+
+/******************************** Event Summary Information Start ********************************/
+
+#create-new-event .create-event-form .create-event .event-user-data{
+  background-color: var(--event-user-data-bg);
+  border-radius: 20px;
+  margin: 0px 58px;
+}
+#create-new-event .create-event-form .create-event .event-user-data .event-title-option{
+  margin-top: 13px;
+  margin-bottom: 32px;
+}
+#create-new-event .create-event-form .create-event .event-user-data .event-title-option .back-arrow{
+  text-align: left;
+}
+#create-new-event .create-event-form .create-event .event-user-data .event-title-option .back-arrow a{
+  color: var(--black);
+  font-size: 24px;
+  padding-left: 22px;
+}
+#create-new-event .create-event-form .create-event .event-user-data .event-title-option .event-title h5{
+  font-size: 20px;
+  color: var(--black);
+  font-weight: 700;
+  line-height: 30px;
+}
+#create-new-event .create-event-form .create-event .event-user-data .event-title-option .event-option{
+  /* text-align: right; */
+  padding-left: 60px;
+}
+#create-new-event .create-event-form .create-event .event-user-data .event-title-option .event-option button{
+  border: none;
+  background-color: var(--event-user-option-bg);
+  text-align: center;
+  border-radius: 50%;
+  margin-left: 8px;
+  
+}
+#create-new-event .create-event-form .create-event .event-user-data .user-data ul{
+  text-align: start;
+  background-color: transparent;
+  /* width: 50%; */
+}
+/******************************** Event Summary Information End ********************************/
