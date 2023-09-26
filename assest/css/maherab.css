@@ -1,0 +1,823 @@
+
+/* root start */
+:root {
+  --Primary-Font : 'Plus Jakarta Sans', sans-serif;
+  --secondary-Font :'Roboto', sans-serif;
+  --third-Font :'Poppins', sans-serif;
+  --bnner-text:#fff;
+  --black : #000000;
+  --see-all-btn:#93C5FD;
+  --popular-event-sub-clr:#76777C;
+  --event-nearby-map-clr:#1d4ed8;
+  --create-btn-bg:#0EA5E9;
+  --join-btn-clr:rgba(0, 0, 0, 0.30);
+  ---fest-join-clr:#BFDBFE;
+  --fest-dollar-clr:#1E40AF;
+  --fest-dollar-bg:#DBEAFE;
+  --get-ticket-bg:#60A5FA;
+  --create-event-form-broder:#D1D5DB;
+}
+/* root end */
+
+
+/* Jihan work css event 1st page start */
+#event-page .event-sidebar .sidebar-details-time {
+  border-radius: 20px;
+  border: 1px solid var(--border_color);
+  padding-bottom: 25px;  
+  margin-bottom: 27px;
+
+}
+#event-page .event-sidebar .sidebar-details-time .timer-details {
+  display: flex;
+  width:100%;
+  height:50%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 14px;
+  padding: 0px 17px;
+}
+#event-page .event-sidebar .sidebar-details-time .timer-details .main-details{
+  background-image: url(/assest/image/event-home-hr/event-home-banner.png);
+  width: 98%;
+  height:97%;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px 40px;
+}
+#event-page .event-sidebar .sidebar-details-time .timer-details .main-details h2{
+  color:var(--white);
+  text-align: center;
+  font-family:var(--Primary-Font);
+  /* font-size: 42px; */
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: -0.96px;
+  padding: 68px 75px 0px;
+}
+#event-page .event-sidebar .sidebar-details-time .timer-details .main-details a{
+  font-size: 14px;
+  color: var(--black);
+ font-weight: 700;
+ line-height: 20px;
+ padding: 12px 60px;
+ border-radius: 30px;
+ background-color: var(--bnner-text);
+ margin-bottom: 47px;
+}
+#event-page .event-sidebar .sidebar-details-time .timer-details .main-details .counter{
+  margin-bottom: 67px;
+}
+#event-page .event-sidebar .sidebar-details-time .timer-details .main-details .counter ul li{
+  display: inline-block;
+  color: white;
+  margin-right: 10px;
+}
+#event-page .event-sidebar .sidebar-details-time .timer-details .main-details .counter ul li p{
+  display: inline;
+  color:var(--white);
+  text-align: center;
+  font-family:var(--Primary-Font);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+}
+#event-page .event-sidebar .sidebar-details-time .timer-details .main-details .counter ul li h4{
+  display: inline-block;
+  color:var(--white);
+  text-align: center;
+  font-family:var(--Primary-Font);
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 88px;
+  letter-spacing: -1.44px;
+}
+#event-page .event-sidebar .sidebar-details-time .event-nearby-details{
+  display: flex;
+  width:100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 17px;
+}
+#event-page .event-sidebar .sidebar-details-time .event-nearby-details .event-nearby{
+  width: 97%;
+}
+#event-page .event-sidebar .sidebar-details-time .event-nearby .event-nearby-head h2{
+  color:var(--black);
+  font-family:var(--Primary-Font);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  margin-top: 21px;
+  margin-bottom: 21px;
+}
+#event-page .event-sidebar .sidebar-details-time .event-nearby .event-nearby-head a{
+  color: #93C5FD;
+  text-align: center;
+  font-family:var(--Primary-Font);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 21px;
+  margin-bottom: 21px;
+  text-align: end;
+}
+#event-page .event-sidebar .sidebar-details-time .event-nearby .event-nearby-cart{
+  justify-content: space-between;
+}
+#event-page .event-sidebar .sidebar-details-time .event-nearby .event-nearby-cart .swimming{
+  border-radius: 24px;
+  background:var(--white);
+  width:49%;
+  box-shadow: 0px -1px 27px 0px rgba(20, 19, 73, 0.05), 0px -2px 25px 0px rgba(4, 17, 21, 0.00);
+}
+#event-page .event-sidebar .sidebar-details-time .event-nearby .event-nearby-cart .swimming .swimming-img img{
+  border-radius: 24px;
+  transform: translateX(-10px);
+  height: 100%;
+
+}
+#event-page .event-sidebar .sidebar-details-time .event-nearby .event-nearby-cart .swimming .swimming-details{
+  padding:10px 20px 10px 10px;
+}
+#event-page .event-sidebar .sidebar-details-time .event-nearby .event-nearby-cart .swimming .swimming-details h2{
+  color:var(--main_text_color);
+  font-family:var(--Primary-Font);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+}
+#event-page .event-sidebar .sidebar-details-time .event-nearby .event-nearby-cart .swimming .swimming-details p{
+  color:var(--post_icon_text);
+  font-family:var(--Primary-Font);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  margin-bottom: 8px;
+}
+#event-page .event-sidebar .sidebar-details-time .event-nearby .event-nearby-cart .swimming .swimming-details .baro-metar p{
+    margin-top: 8px;
+}
+/* Jihan work css event 1st page end */
+
+
+
+/* event time / due / today / up coming / page  start */
+
+#event-page {
+    margin-top: 27px;
+    /* position: relative; */
+  }
+   .sidebar {
+    border: 2px solid #D1D5DB;
+    border-radius: 20px;
+    height: 880px;
+    /* position: fixed; */
+  }
+   .sidebar .sidebar-title {
+    margin-top: 13px;
+    margin-left: 16px;
+    margin-bottom: 4px;
+  }
+   .sidebar .sidebar-title h5 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+   .sidebar .search-event-side {
+    margin-left: 16px;
+    position: relative;
+  }
+   .sidebar .search-event-side .icon .search-icon {
+    position: absolute;
+    top: 3px;
+    left: 10px;
+  }
+   .sidebar .search-event-side .search-bar input {
+    padding: 4px 40px;
+    border-radius: 14px;
+    border: none;
+    background-color: #EFF6FF;
+  }
+   .sidebar .search-event-side .search-bar input:focus {
+    outline: none;
+  }
+  .sidebar .homeFD-section-event {
+    margin-top: 10px;
+    margin-left: 16px;
+  }
+  .sidebar .homeFD-section-event .friends .event-active-sidebar {
+    background-color: #BFDBFE;
+    padding: 12px 10px;
+    border-radius: 20px;
+  }
+  .sidebar .homeFD-section .friends ul li {
+    margin-bottom: 28px;
+  }
+  .sidebar .homeFD-section-event .friends ul li a {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+  .sidebar .homeFD-section-event .friends ul li a span {
+    font-size: 24px;
+    margin-right: 25px;
+  }
+  .sidebar .community {
+    margin-left: 11px;
+    margin-top: 25px;
+  }
+  .sidebar .community .community_heading h4 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+  .sidebar .community .community_heading .common-heading-b {
+    padding: 6px;
+    border-radius: 4px;
+    background-color: #E5E7EB;
+  }
+  .sidebar .community .community-des .community_descrip {
+    margin-bottom: 5px;
+  }
+  .sidebar .community .community-des .community_descrip .com-img {
+    padding-left: 5px;
+  }
+  .sidebar .community .community-des .community_descrip .com-title {
+    padding-right: 5px;
+  }
+  .sidebar .community .community-des .community_descrip .com-title a {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+  .sidebar .community .community-des .community_descrip .com-title p {
+    color: #9CA3AF;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+  }
+  .sidebar .upcomingEvent .community_heading h4 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+  .sidebar .upcomingEvent .community_heading .common-heading-b {
+    padding: 6px;
+    border-radius: 4px;
+    background-color: #E5E7EB;
+  }
+  .sidebar .upcomingEvent .community-des .community_descrip {
+    margin-bottom: 23px;
+  }
+  .sidebar .upcomingEvent .community-des .community_descrip .com-head {
+    text-align: center;
+  }
+  .sidebar .upcomingEvent .community-des .community_descrip .com-head .common-heading {
+    padding: 2px;
+    border-radius: 10px;
+    background-color: #374151;
+  }
+  .sidebar .upcomingEvent .community-des .community_descrip .com-head  {
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 500;
+    line-height: 24px;
+  }
+  .sidebar .upcomingEvent .community-des .community_descrip .com-head  span {
+    color: #6B7280;
+  }
+  .sidebar .upcomingEvent .com-title a {
+    font-size: 16px;
+    color: #000000;
+    font-weight: 500;
+    line-height: 24px;
+  }
+  .sidebar .upcomingEvent .com-title p {
+    font-size: 12px;
+    color: #D1D5DB;
+    font-weight: 500;
+    line-height: 18px;
+  }
+  /* #event-page .event-sidebar .sidebar-details {
+    margin-left: 41px;
+  } */
+  #event-page .event-sidebar .sidebar-details .due .due-break {
+    margin-left: 20px;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.2);
+    padding-left: 18px;
+    margin: 20px;
+  }
+  #event-page .event-sidebar .sidebar-details .due .due-title {
+    margin-bottom: 18px;
+  }
+  #event-page .event-sidebar .sidebar-details .due .due-details {
+    padding-left: 16px;
+  }
+  #event-page .event-sidebar .sidebar-details .due .due-details .due-profile {
+    padding-right: 24px;
+  }
+  #event-page .event-sidebar .sidebar-details .due .due-text .due-info {
+    margin-bottom: 25px;
+  }
+  #event-page .event-sidebar .sidebar-details .due .due-text .due-info .due-profile-title h4 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+  }
+  #event-page .event-sidebar .sidebar-details .due .due-text .due-info .due-profile-date {
+    text-align: right;
+  }
+  #event-page .event-sidebar .sidebar-details .due .due-text .due-info .due-profile-date p {
+    padding-right: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  #event-page .event-sidebar .sidebar-details .due .due-text .due-info .due-profile-date p span {
+    padding-left: 5px;
+  }
+  #event-page .event-sidebar .sidebar-details .due .due-text .due-event-details {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  #event-page .event-sidebar .sidebar-details .today .due-break {
+    margin-left: 20px;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.2);
+    margin: 20px;
+  }
+  #event-page .event-sidebar .sidebar-details .today .due-title {
+    margin-bottom: 18px;
+  }
+  #event-page .event-sidebar .sidebar-details .today .due-details {
+    padding-left: 16px;
+  }
+  #event-page .event-sidebar .sidebar-details .today .due-details .due-profile {
+    padding-right: 24px;
+  }
+  #event-page .event-sidebar .sidebar-details .today .due-text .due-info {
+    margin-bottom: 25px;
+  }
+  #event-page .event-sidebar .sidebar-details .today .due-text .due-info .due-profile-title h4 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+  }
+  #event-page .event-sidebar .sidebar-details .today .due-text .due-info .due-profile-date {
+    text-align: right;
+  }
+  #event-page .event-sidebar .sidebar-details .today .due-text .due-info .due-profile-date p {
+    padding-right: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  #event-page .event-sidebar .sidebar-details .today .due-text .due-info .due-profile-date p span {
+    padding-left: 5px;
+  }
+  #event-page .event-sidebar .sidebar-details .today .due-text .due-event-details {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  #event-page .event-sidebar .sidebar-details .upcoming .due-break {
+    margin-left: 20px;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.2);
+    margin: 20px;
+  }
+  #event-page .event-sidebar .sidebar-details .upcoming .due-title {
+    margin-bottom: 18px;
+  }
+  #event-page .event-sidebar .sidebar-details .upcoming .due-details {
+    padding-left: 16px;
+  }
+  #event-page .event-sidebar .sidebar-details .upcoming .due-details .due-profile {
+    padding-right: 24px;
+  }
+  #event-page .event-sidebar .sidebar-details .upcoming .due-text .due-info {
+    margin-bottom: 25px;
+  }
+  #event-page .event-sidebar .sidebar-details .upcoming .due-text .due-info .due-profile-title h4 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+  }
+  #event-page .event-sidebar .sidebar-details .upcoming .due-text .due-info .due-profile-date {
+    text-align: right;
+  }
+  #event-page .event-sidebar .sidebar-details .upcoming .due-text .due-info .due-profile-date p {
+    padding-right: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  #event-page .event-sidebar .sidebar-details .upcoming .due-text .due-info .due-profile-date p span {
+    padding-left: 5px;
+  }
+  #event-page .event-sidebar .sidebar-details .upcoming .due-text .due-event-details {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+/* event time / due / today / up coming / page  start */
+
+/******************************** scheduled event  start ********************************/
+
+#scheduled-event{
+  margin: 50px 0px;
+}
+/* #scheduled-event .scheduled-event-page .sceduled-main-page{
+  margin-left: 41px;
+} */
+#scheduled-event .scheduled-event-page .sceduled-main-page .sceduled-banner{
+  background-image: url(../image/scheduled\ event\ banner.png);
+  /* max-width: 640px;
+  width: 100%; */
+  text-align: center;
+  color:var(--bnner-text);
+  font-family: var(--Primary-Font);
+  border-radius: 20px;
+  padding-bottom: 34px;
+}
+#scheduled-event .scheduled-event-page .sceduled-main-page .sceduled-banner h5{
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding-top: 88px;
+  padding-bottom: 10px;
+}
+#scheduled-event .scheduled-event-page .sceduled-main-page .sceduled-banner h3{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: -0.96px;
+  margin-bottom: 21px;
+}
+#scheduled-event .scheduled-event-page .sceduled-main-page .sceduled-banner a{
+  font-size: 14px;
+  color: var(--black);
+  font-weight: 700;
+  line-height: 20px;
+  padding: 12px 32px;
+  background-color: var(--bnner-text);
+  border-radius: 30px;
+}
+
+/* popular event  start*/
+#scheduled-event .scheduled-event-page .sceduled-main-page .popular-event{
+  margin-top: 38px;
+}
+#scheduled-event .scheduled-event-page .sceduled-main-page .popular-event .popular-title .title{
+  font-size: 24px;
+  color: var(--black);
+  font-weight: 700;
+  line-height: 32px; 
+}
+
+#scheduled-event .scheduled-event-page .sceduled-main-page .popular-event .popular-title .see-option{
+  font-size: 16px;
+  color:var(--see-all-btn);
+  font-weight: 600;
+  line-height: 24px;
+  text-align: right;
+}
+
+#scheduled-event .scheduled-event-page .sceduled-main-page .popular-event-box{
+  margin-top: 23px;
+}
+#scheduled-event .scheduled-event-page .sceduled-main-page .popular-event-box .popular-card .card{
+  box-shadow: 0px 13px 27px 0px rgba(20, 19, 73, 0.05);
+  border-radius: 30px;
+}
+#scheduled-event .scheduled-event-page .sceduled-main-page .popular-event-box .popular-card .pouplar-card-img{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+#scheduled-event .scheduled-event-page .sceduled-main-page .popular-event-box .popular-card .card-text{
+  background-color: var(--bnner-text);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+#scheduled-event .scheduled-event-page .sceduled-main-page .popular-event-box .popular-card .card-text h6{
+  font-size: 18px;
+  color: var(--black);
+  font-weight: 700;
+  line-height: 28px;
+  padding-top: 12px;
+  padding-left: 12px;
+}
+#scheduled-event .scheduled-event-page .sceduled-main-page .popular-event-box .popular-card .card-text p{
+  font-size: 12px;
+  color: var(--popular-event-sub-clr);
+  font-weight: 400;
+  line-height: 18px;
+  padding-top: 2px;
+  padding-left: 12px;
+  padding-bottom: 18px;
+}
+
+/* popular event  end*/
+
+/* event nearby you start */
+#scheduled-event .scheduled-event-page .sceduled-main-page .event-popular-nearby{
+  margin-top: 38px;
+}
+#scheduled-event .scheduled-event-page .sceduled-main-page .event-popular-nearby .popular-title .title{
+  font-size: 24px;
+  color: var(--black);
+  font-weight: 700;
+  line-height: 32px; 
+}
+
+#scheduled-event .scheduled-event-page .sceduled-main-page .event-popular-nearby .popular-title .see-option{
+  font-size: 16px;
+  color:var(--see-all-btn);
+  font-weight: 600;
+  line-height: 24px;
+  text-align: right;
+}
+#scheduled-event .scheduled-event-page .sceduled-main-page .popular-event-nearby-box .event-nearby-box{
+  box-shadow: 0px -1px 27px 0px rgba(20, 19, 73, 0.05), 0px -2px 25px 0px rgba(4, 17, 21, 0.00);
+  margin-top: 21px;
+  border-radius: 24px;
+}
+#scheduled-event .scheduled-event-page .sceduled-main-page .popular-event-nearby-box .event-nearby-box .event-nearby-card-img{
+  border-radius: 24px;
+}
+#scheduled-event .scheduled-event-page .sceduled-main-page .popular-event-nearby-box .event-nearby-box .event-nearby-card-text{
+  padding-left: 18px;
+}
+#scheduled-event .scheduled-event-page .sceduled-main-page .popular-event-nearby-box .event-nearby-box .event-nearby-card-text h5{
+  font-size: 18px;
+color: var(--black);
+font-weight: 700;
+line-height: 28px;
+}
+#scheduled-event .scheduled-event-page .sceduled-main-page .popular-event-nearby-box .event-nearby-box .event-nearby-card-text p{
+  font-size: 12px;
+  color: var(--popular-event-sub-clr);
+  font-weight: 400;
+  line-height: 18px; 
+}
+#scheduled-event .scheduled-event-page .sceduled-main-page .popular-event-nearby-box .event-nearby-box .event-nearby-card-text p span{
+  color: var(--event-nearby-map-clr);
+  font-size: 18px;
+  line-height: 18px; 
+  padding-right: 2px;
+}
+
+/* event nearby you end */
+
+/* event category start */
+#scheduled-event .scheduled-event-page .sceduled-main-page .popular-event-category-box{
+  margin-top: 17px;
+  text-align: center;
+}
+#scheduled-event .scheduled-event-page .sceduled-main-page .popular-event-category-box .event-category-text{
+  margin-top: 17px;
+}
+#scheduled-event .scheduled-event-page .sceduled-main-page .popular-event-category-box .event-category-text p a{
+  font-size: 24px;
+  color: var(--black);
+  font-weight: 700;
+  line-height: 32px;
+  text-align: center; 
+}
+/* event category end */
+
+/* event-sub-popUp-bar start */
+
+ .side-scheduled-event-details{
+  margin-top: 5px;
+}
+
+ .side-scheduled-event-details .create-new-event-btn a{
+  background-color: var(--create-btn-bg);
+  color: var(--bnner-text);
+  padding: 14px 19px;
+  border-radius: 20px;
+  font-size: 19.573px;
+  font-weight: 700;
+  line-height: 26.097px;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+
+}
+ .side-scheduled-event-details .create-new-event-btn a span{
+  margin-right: 15px;
+}
+
+ .side-scheduled-event-details .join-new-event-btn{
+  margin-top: 37px;
+}
+ .side-scheduled-event-details .join-new-event-btn a{
+  background-color: var(--bnner-text);
+  color: var(--join-btn-clr);
+  border: 1px solid;
+  padding: 14px 50px;
+  border-radius: 20px;
+  font-size: 19.573px;
+  font-weight: 700;
+  line-height: 26.097px;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+ .side-scheduled-event-details .join-new-event-btn a span{
+  margin-right: 15px;
+}
+ .side-scheduled-event-details .detail-new-event-btn{
+  margin-top: 30px;
+  text-align: center;
+}
+ .side-scheduled-event-details .detail-new-event-btn p{
+  font-size: 20px;
+  color: var(--black);
+  font-weight: 700;
+  line-height: 30px;
+}
+ .side-scheduled-event-details .detail-new-event-btn span{
+  font-size: 24px;
+  color: var(--black);
+  font-weight: 700;
+  line-height: 30px;
+}
+ .side-scheduled-event-details .profile-new-event-btn{
+  margin-top: 33px;
+}
+ .side-scheduled-event-details .summerfestival-event{
+ margin-top: 22px; 
+}
+ .side-scheduled-event-details .summerfestival-event h4{
+  font-size: 24px;
+  color: var(--black);
+  font-weight: 700;
+  line-height: 32px;
+}
+ .side-scheduled-event-details .summerfestival-event p{
+  margin-top: 12px;
+  font-size: 14px;
+  color: var(--popular-event-sub-clr);
+  font-weight: 400;
+  line-height: 20px;
+}
+ .side-scheduled-event-details .summerfestival-event .joined-member {
+ margin-top: 15px;
+ margin-bottom: 45px;
+}
+ .side-scheduled-event-details .summerfestival-event .joined-member .joined-member-img{
+ position: relative;
+}
+ .side-scheduled-event-details .summerfestival-event .joined-member .joined-member-img .profile-a,.profile-b{
+ position: absolute;
+ left: 33px;
+}
+ .side-scheduled-event-details .summerfestival-event .joined-member .joined-member-img .profile-b{
+ position: absolute;
+ left: 55px;
+}
+ .side-scheduled-event-details .summerfestival-event .joined-member .joined-member-total p{
+ color: #BFDBFE;
+ font-size: 14px;
+ font-weight: 400;
+ line-height: 20px;
+}
+ .side-scheduled-event-details .summerfestival-event .joined-member .joined-member-price p{
+  font-size: 14px;
+  color: var(--popular-event-sub-clr);
+  font-weight: 700;
+  line-height: 20px;
+  border-radius: 16px;
+  background-color: var(--fest-dollar-bg);
+  padding: 2px 10px;
+  text-align: center;
+}
+ .side-scheduled-event-details .summerfestival-event .joined-member .joined-member-price p span{
+  color: var(--fest-dollar-clr);
+}
+ .side-scheduled-event-details .summerfestival-event .description-event h5, h6{
+  font-size: 20px;
+  color: var(--black);
+  font-weight: 700;
+  line-height: 30px;
+}
+ .side-scheduled-event-details  .description-event p{
+  font-size: 14px;
+  color: var(--popular-event-sub-clr);
+  font-weight: 400;
+  line-height: 20px;
+  width: 246.492px;
+  margin-top: 8px;
+}
+ .side-scheduled-event-details .description-event p a{
+  color: var(---fest-join-clr);
+}
+
+ .side-scheduled-event-details  .description-event h6{
+  margin-top: 16px;
+  margin-bottom: 9px;
+}
+ .side-scheduled-event-details  .description-event p span{
+  color: var(--event-nearby-map-clr);
+  margin-right: 5px;
+}
+
+ .side-scheduled-event-details .totalprice-vent{
+  margin-top: 25px;
+}
+ .side-scheduled-event-details .totalprice-vent .pricetag p{
+  font-size: 14px;
+  color: var(--popular-event-sub-clr);
+  font-weight: 400;
+  line-height: 20px;
+}
+ .side-scheduled-event-details .totalprice-vent .pricetag p span{
+  color: var(--get-ticket-bg);
+  font-weight: 700;
+}
+ .side-scheduled-event-details .totalprice-vent .pricetag p span span{
+  color: var(--black);
+  font-weight: 700;
+}
+ .side-scheduled-event-details .totalprice-vent .get-ticket-btn a{
+  text-align: center;
+  color: var(--bnner-text);
+  font-size: 9.625px;
+  font-weight: 400;
+  line-height: 13.75px;
+  background-color:var(--get-ticket-bg) ;
+  padding: 10px 26px;
+  border-radius: 21px;
+}
+/* event-sub-popUp-bar end */
+
+/******************************** scheduled event  end ********************************/
+
+
+/******************************** Create New Event Start ********************************/
+#create-new-event{
+  margin-top: 27px;
+}
+#create-new-event .create-event-form{
+  text-align: center;
+  border: 1px solid var(--create-event-form-broder);
+  border-radius: 20px;
+  margin-left: 17px;
+}
+#create-new-event .create-event-form .create-event .create-event-logo{
+  margin-top: 21px;
+}
+#create-new-event .create-event-form .create-event .create-event-logo h2{
+  font-size: 30px;
+  color: var(--black);
+  font-weight: 700;
+  line-height: 36px;
+  margin-top: 18px; 
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 83px;
+}
+#create-new-event .create-event-form .create-event .create-event-user-form{
+  text-align: center;
+}
+#create-new-event .create-event-form .create-event .create-event-user-form .create-form-title{
+  /* font-size: 12px; */
+  color: var(--black);
+  font-weight: 400;
+  line-height: 18px;
+  padding-left: 74px;
+  margin-right: 100px;
+  margin-bottom: 18px;
+ 
+}
+#create-new-event .create-event-form .create-event .create-event-user-form .create-form-input{
+  margin-right: 163px;
+  background: transparent;
+  border-radius: 10px;
+  margin-bottom: 18px;
+}
+#create-new-event .create-event-form .create-event .create-event-user-form textarea{
+  padding: 14px 40px 100px 20px;
+}
+#create-new-event .create-event-form .create-event .create-event-user-form .input-group-texarea{
+  margin-top: 33px;
+}
+/******************************** Create New Event End ********************************/
