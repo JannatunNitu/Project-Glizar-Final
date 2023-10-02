@@ -73,6 +73,16 @@ h1,h2,h3,h4,h5,h5,p,span,a,hr,ul,li{
     /* *User-group */
     --btn-combi:#0EA5E9;
     --combi-text-clr:#082F49;
+
+    /* *category page */
+    --cate-text : #44444F;
+    --blue-cate-color :#E9F3FB;
+    --green-cate-color:#EDF4E7;
+    --orange-cate-color:#FAEFE8;
+    --pink-cate-color:#FAEFF6;
+    --purple-cate-color:#F5EFFB;
+    --btn-cate-color:#FAFAFB;
+    --grp-text-heading:#030712;
 }
 
 body{
@@ -167,6 +177,17 @@ body{
 }
 .common-icon-radius{
     border-radius: 20px;
+}
+.cate-btn{
+  padding: 10px 10px;
+  border-radius: 8.919px;
+  background-color: var(--combi-text-clr);
+  color: var(--btn-cate-color);
+  text-align: center;
+  font-family: var(--third-Font);
+  font-size: 10.702px;
+  font-weight: 600;
+  line-height: normal;
 }
 /* *common css ends here */
 
@@ -517,6 +538,206 @@ nav .nav-icons ul li a .overlay{
     box-shadow: 0px 0.80651px 0px 0px #E2E2EA inset;
     background-color: transparent;
 }
+
+
+/* *Home add post section starts here */
+.home-cre{
+  position: relative;
+}
+.post-add-home{
+  background-color: rgba(204, 204, 204, 0.6);
+  padding: 31px 37px 31.259px 37px;
+  align-items: center;
+  display: inline-block;
+  position: absolute;
+  top: 20%;
+  left:50%;
+  transform: translate(-50%);
+  width: 431px;
+  border-radius: 20px;
+}
+.home-post-title{
+  text-align: center;
+}
+.home-post-title h4,.added-post-section h4{
+  color: var(--black);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px; 
+  display: inline-block;
+  padding-left: 118px;
+}
+.home-post-title .common-icon,#added-post .common-icon{
+  font-size: 30px;
+  color: var(--black);
+  background-color: var(--searchIcon);
+  border-radius: 25px;
+}
+.home-post-title .cross-title{
+ text-align: right;
+}
+.post-add-home .line{
+  margin: 10px 0 30px 0;
+}
+.home-post-create .home-post-profile img{
+  width: 120%;
+  border-radius: 50%;
+}
+.home-post-create .home-post-heading ul li a{
+  color: var(--gray-800, #111827);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+.home-post-create .home-post-heading ul .hheading a{
+  color: var(--gray-900, #030712);
+  text-align: center;
+  font-size: 8.353px;
+  font-weight: 700;
+  line-height: 12.53px;
+  padding:2.215px 2.215px;
+  background-color: var(--white);
+  border-radius: 11.077px;
+}
+.home-post-create .home-post-heading ul .hheading a span{
+  padding: 0 4px;
+}
+.home-post-create h3{
+  color: var(--gray-800, #111827);
+  padding: 10px 0 120px 0;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+.post-create-color ul li{
+  display: inline-block;
+}
+.post-create-color ul li .last{
+  padding-left: 296px;
+}
+.post-create-icons{
+  position: relative;
+  align-items: center;
+  padding: 14px 0;
+}
+.post-create-icons ul{
+  position: absolute;
+  top: 20px;
+  right: 0;
+  padding-right: 10px;
+}
+.post-create-icons ul li{
+  display: inline-block;
+
+}
+.post-create-icons ul li a{
+  font-size: 20px;
+  padding: 5px;
+  color: var(--black);
+  font-weight: 700;
+}
+.post-create-icons input{
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 10px 10px;
+  border-radius: 20px;
+  border: 1px solid var(--black);
+  background-color: transparent;
+}
+.post-create-icons input::placeholder{
+  color: var(--black);
+  font-size: 10.8px;
+  font-weight: 700;
+  line-height: 16.2px;
+}
+.post-create-btn .btn-common{
+  width: 100%;
+  text-align: center;
+}
+
+/* *Home add post section ends here */
+
+/* *added post section starts here */
+#added-post{
+  padding: 600px 0;
+}
+.added-post-section{
+  padding: 20px 35px;
+  background-color: rgba(204, 204, 204, 0.6);
+  display: inline-block;
+  border-radius: 20px;
+}
+.addedpost-title{
+  padding: 0 30px;
+  text-align: center;
+}
+.addedpost-title h4{
+  padding-left: 20px;
+  text-align: right;
+}
+.addedpost-title .cross-title{
+  margin-left: 10px;
+  
+}
+.addedpost-title .line{
+  margin: 10px 66px 30px 66px;
+  width: 400px;
+}
+.post-ad-img{
+  margin-bottom: 10px;
+}
+.added-post-image{
+  margin-bottom: 10px;
+}
+.added-post-image ul li{
+  display: inline-block;
+}
+.added-post-image ul li .pd{
+  margin-left: -10px;
+}
+.added-post-image ul li a span{
+  color: var(--black);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 12.836px; 
+  margin-left: 5px;
+}
+.added-post-last{
+  padding: 10px 30px 20px 20px;
+}
+.added-post-section .like-comment{
+  margin-bottom: 20px;
+}
+.all-comments{
+  width: 582.058px;
+
+}
+.all-comments .comments-text{
+  margin-left: -31px;
+  background-color: var(--white);
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+.all-comments .comments-text h5{
+  color: var(--black);
+  font-size: 14.68px;
+  font-weight: 700;
+  line-height: 22.836px;
+  margin-bottom: 10px;
+}
+.all-comments .comments-text p{
+  color: var(--black);
+  font-size: 17.791px;
+  font-weight: 500;
+  line-height: 32.023px;
+}
+/* *added post section ends here */
+
+
+
+
 /* *home page section ends here */
 
 
@@ -698,7 +919,7 @@ nav .nav-icons ul li a .overlay{
 
 /* *user group section starts here */
 .combination-section{
-    padding: 20px 0 10px 70px;
+    padding: 20px 0 10px 60px;
 }
 .combination-title .common-heading{
     font-weight: 700;
@@ -714,6 +935,9 @@ nav .nav-icons ul li a .overlay{
 .communication-btn a span{
     padding-right: 15px;
 }
+.userGroupCard{
+  padding: 0 7px;
+}
 .combination-card{
     padding: 5px 0 10px 0;
 }  
@@ -724,11 +948,13 @@ nav .nav-icons ul li a .overlay{
 }
 .combination-card .card img{
     width: 100%;
+    height: 100%;
 }
 .card-body{
     text-align: center;
 }
 .combination-card .card h5{
+    margin-top: 10px;
     color: var(--combi-text-clr);
     font-size: 14px;
     font-weight: 700;
@@ -741,13 +967,243 @@ nav .nav-icons ul li a .overlay{
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.089px;
+    margin-bottom: 30px;
 }
 .card-body .btn-common-all{
     border-radius: 8.919px;
     background: var(--combi-text-clr);
-    margin-top: 20px;
+    width: 100%;
+    display: block;
+    font-family: var(--third-Font);
+    font-size: 10.702px;
+    font-weight: 600;
+}
+.card-body a{
+  width: 100%;
+}
+.community-category .combination-title h4{
+  padding: 30px 0 20px 0;
+}
+.category-item img{
+  width: 100%;
+}
+.single-category{
+  padding: 0 10px;
+}
+.category-item{
+  position: relative;
+}
+.category-item .category-overlay{
+  text-align: center;
+  position: absolute;
+  top: 64%;
+  left:22%;
+  width: 89.186px;
+  height: 89.186px;
+  border-radius: 13.378px;
+  visibility: hidden;
+  opacity: 0;
+  transition: .3s;
+  padding-top: 14px;
+}
+.category-item:hover .category-overlay{
+  visibility: visible;
+  opacity: 1;
+}
+.blue{
+  background-color: var(--blue-cate-color);
+}
+.green{
+  background-color:var(--green-cate-color) ;
+}
+.orange{
+  background-color:var(--orange-cate-color) ;
+}
+.pink{
+  background-color:var(--pink-cate-color) ;
+}
+.purple{
+  background-color:var(--purple-cate-color) ;
+}
+.category-item .category-overlay img{
+  width: 29.432px;
+}
+.category-item .category-overlay p{
+  color: var(--cate-text);
+  font-family: var(--secondary-Font);
+  font-size: 10.702px;
+  font-weight: 400;
+  line-height: 19.621px;
+  padding-top: 10px;
+}
+.cate-group{
+  padding: 30px 0;
+}
+.cate-friendsGroup{
+  padding: 20px 10px;
+}
+.cate-single-group{
+  padding: 10px 0 10px 0;
+}
+.cate-group-image{
+  width: 116.511px;
+  height: 93.376px;
+}
+.cate-group-image img{
+  width: 100%;
+  height: 100%;
+  border-radius: 13.378px;
+}
+.cate-group-des{
+  padding: 10px 10px;
+}
+.cate-title-group a{
+  color: var(--grp-text-heading);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+.cate-title-group p{
+  color: var(--active-head);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  padding: 5px 0;
+}
+.cate-title-group ul li{
+  display: inline-block;
+}
+.cate-title-group ul li a img{
+  border-radius: 50%;
+}
+.cate-title-group ul li a span{
+  color: var(--active-head);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  padding-left: 20px;
+}
+.cate-group-des{
+  position: relative;
+}
+.cate-joinGrp{
+  position: absolute;
+  top: 35px;
+  right: 14px;
 }
 /* *user group section ends here */
+
+
+/* *user group form section starts here */
+.userGroup-form{
+  padding: 70px 0 0 50px;
+}
+.userGroup-form .userGroupImage{
+   width: 222px;
+   height: 222px;
+   background-color: var(--join-color);
+   border-radius: 20px;
+   line-height: 222px;
+   text-align: center;
+   margin-bottom: 40px;
+}
+.com-form {
+  position: relative;
+}
+.com-form label{
+  color: var(--black);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  display: block;
+  padding-bottom: 40px;
+}
+.com-form input{
+  width: 562px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.com-form .bottom-border{
+  border-bottom: 1px solid var(--black);
+  margin-bottom: 20px;
+}
+.com-form span{
+  font-size: 24px;
+  color: var(--black);
+  top: 180px;
+  right: 394px;
+  position: absolute;
+}
+.com-form .common-icon{
+  color: var(--white);
+  background-color: var(--black);
+  display: block;
+}
+.com-form .btn-common-all{
+  background-color: var(--btn-color);
+  text-align: right;
+  top: 381px;
+  right: 394px;
+  position: absolute;
+}
+/* *user group form section ends here */
+
+/* *user group create section starts here */
+.community-img{
+  background-image: url(../image/create\ community.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  padding: 44px 0 65px 0;
+}
+.community-img h3{
+  color: var(--white);
+font-size: 72px;
+font-style: normal;
+font-weight: 700;
+line-height: 88px; 
+letter-spacing: -1.44px;
+text-align: center;
+}
+.entire-community{
+  padding: 20px 0;
+}
+.member-heading{
+  padding-bottom: 20px;
+}
+.member-heading h4{
+  color: var(--black);
+  font-size: 20.077px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30.116px;
+  display: inline-block;
+}
+.member-heading span{
+  color: var(--text-request);
+}
+.member-heading a{
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  font-size: 12px;
+  display: inline-block;
+  line-height: 28px;
+  text-align: center;
+  background-color: var(--join-color);
+  color: var(--black);
+  margin-left: 60px;
+}
+.members-list img{
+  padding-bottom: 20px;
+}
+/* *user group create section ends here */
 
 
 /* *chat section starts here */
@@ -1054,4 +1510,843 @@ nav .nav-icons ul li a .overlay{
     padding-bottom: 600px;
 }
 /* *individual section ends here */
+
+
+
+
+
+
+
+
+
+
+
+
+/* *****************************mehrab */
+
+
+/* root start */
+:root {
+    --Primary-Font : 'Plus Jakarta Sans', sans-serif;
+    --secondary-Font :'Roboto', sans-serif;
+    --third-Font :'Poppins', sans-serif;
+    --bnner-text:#fff;
+    --black : #000000;
+    --see-all-btn:#93C5FD;
+    --popular-event-sub-clr:#76777C;
+    --event-nearby-map-clr:#1d4ed8;
+    --create-btn-bg:#0EA5E9;
+    --join-btn-clr:rgba(0, 0, 0, 0.30);
+    ---fest-join-clr:#BFDBFE;
+    --fest-dollar-clr:#1E40AF;
+    --fest-dollar-bg:#DBEAFE;
+    --get-ticket-bg:#60A5FA;
+    --create-event-form-broder:#D1D5DB;
+  }
+  /* root end */
+  
+  
+  /* Jihan work css event 1st page start */
+  #event-page .event-sidebar .sidebar-details-time {
+    border-radius: 20px;
+    border: 1px solid var(--border_color);
+    padding-bottom: 25px;  
+    margin-bottom: 27px;
+  
+  }
+  #event-page .event-sidebar .sidebar-details-time .timer-details {
+    display: flex;
+    width:100%;
+    height:50%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 14px;
+    padding: 0px 17px;
+  }
+  #event-page .event-sidebar .sidebar-details-time .timer-details .main-details{
+    background-image: url(/assest/image/event-home-hr/event-home-banner.png);
+    width: 98%;
+    height:97%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 40px;
+  }
+  #event-page .event-sidebar .sidebar-details-time .timer-details .main-details h2{
+    color:var(--white);
+    text-align: center;
+    font-family:var(--Primary-Font);
+    /* font-size: 42px; */
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.96px;
+    padding: 68px 75px 0px;
+  }
+  #event-page .event-sidebar .sidebar-details-time .timer-details .main-details a{
+    font-size: 14px;
+    color: var(--black);
+   font-weight: 700;
+   line-height: 20px;
+   padding: 12px 60px;
+   border-radius: 30px;
+   background-color: var(--bnner-text);
+   margin-bottom: 47px;
+  }
+  #event-page .event-sidebar .sidebar-details-time .timer-details .main-details .counter{
+    margin-bottom: 67px;
+  }
+  #event-page .event-sidebar .sidebar-details-time .timer-details .main-details .counter ul li{
+    display: inline-block;
+    color: white;
+    margin-right: 10px;
+  }
+  #event-page .event-sidebar .sidebar-details-time .timer-details .main-details .counter ul li p{
+    display: inline;
+    color:var(--white);
+    text-align: center;
+    font-family:var(--Primary-Font);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+  }
+  #event-page .event-sidebar .sidebar-details-time .timer-details .main-details .counter ul li h4{
+    display: inline-block;
+    color:var(--white);
+    text-align: center;
+    font-family:var(--Primary-Font);
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 88px;
+    letter-spacing: -1.44px;
+  }
+  #event-page .event-sidebar .sidebar-details-time .event-nearby-details{
+    display: flex;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 17px;
+  }
+  #event-page .event-sidebar .sidebar-details-time .event-nearby-details .event-nearby{
+    width: 97%;
+  }
+  #event-page .event-sidebar .sidebar-details-time .event-nearby .event-nearby-head h2{
+    color:var(--black);
+    font-family:var(--Primary-Font);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    margin-top: 21px;
+    margin-bottom: 21px;
+  }
+  #event-page .event-sidebar .sidebar-details-time .event-nearby .event-nearby-head a{
+    color: #93C5FD;
+    text-align: center;
+    font-family:var(--Primary-Font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 21px;
+    margin-bottom: 21px;
+    text-align: end;
+  }
+  #event-page .event-sidebar .sidebar-details-time .event-nearby .event-nearby-cart{
+    justify-content: space-between;
+  }
+  #event-page .event-sidebar .sidebar-details-time .event-nearby .event-nearby-cart .swimming{
+    border-radius: 24px;
+    background:var(--white);
+    width:49%;
+    box-shadow: 0px -1px 27px 0px rgba(20, 19, 73, 0.05), 0px -2px 25px 0px rgba(4, 17, 21, 0.00);
+  }
+  #event-page .event-sidebar .sidebar-details-time .event-nearby .event-nearby-cart .swimming .swimming-img img{
+    border-radius: 24px;
+    transform: translateX(-10px);
+    height: 100%;
+  
+  }
+  #event-page .event-sidebar .sidebar-details-time .event-nearby .event-nearby-cart .swimming .swimming-details{
+    padding:10px 20px 10px 10px;
+  }
+  #event-page .event-sidebar .sidebar-details-time .event-nearby .event-nearby-cart .swimming .swimming-details h2{
+    color:var(--main_text_color);
+    font-family:var(--Primary-Font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+  }
+  #event-page .event-sidebar .sidebar-details-time .event-nearby .event-nearby-cart .swimming .swimming-details p{
+    color:var(--post_icon_text);
+    font-family:var(--Primary-Font);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    margin-bottom: 8px;
+  }
+  #event-page .event-sidebar .sidebar-details-time .event-nearby .event-nearby-cart .swimming .swimming-details .baro-metar p{
+      margin-top: 8px;
+  }
+  /* Jihan work css event 1st page end */
+  
+  
+  
+  /* event time / due / today / up coming / page  start */
+  
+  #event-page {
+      margin-top: 27px;
+      /* position: relative; */
+    }
+     .sidebar {
+      border: 2px solid #D1D5DB;
+      border-radius: 20px;
+      height: 880px;
+      /* position: fixed; */
+    }
+     .sidebar .sidebar-title {
+      margin-top: 13px;
+      margin-left: 16px;
+      margin-bottom: 4px;
+    }
+     .sidebar .sidebar-title h5 {
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 30px;
+    }
+     .sidebar .search-event-side {
+      margin-left: 16px;
+      position: relative;
+    }
+     .sidebar .search-event-side .icon .search-icon {
+      position: absolute;
+      top: 3px;
+      left: 10px;
+    }
+     .sidebar .search-event-side .search-bar input {
+      padding: 4px 40px;
+      border-radius: 14px;
+      border: none;
+      background-color: #EFF6FF;
+    }
+     .sidebar .search-event-side .search-bar input:focus {
+      outline: none;
+    }
+    .sidebar .homeFD-section-event {
+      margin-top: 10px;
+      margin-left: 16px;
+    }
+    .sidebar .homeFD-section-event .friends .event-active-sidebar {
+      background-color: #BFDBFE;
+      padding: 12px 10px;
+      border-radius: 20px;
+    }
+    .sidebar .homeFD-section .friends ul li {
+      margin-bottom: 28px;
+    }
+    .sidebar .homeFD-section-event .friends ul li a {
+      color: #000000;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+    }
+    .sidebar .homeFD-section-event .friends ul li a span {
+      font-size: 24px;
+      margin-right: 25px;
+    }
+    .sidebar .community {
+      margin-left: 11px;
+      margin-top: 25px;
+    }
+    .sidebar .community .community_heading h4 {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+    }
+    .sidebar .community .community_heading .common-heading-b {
+      padding: 6px;
+      border-radius: 4px;
+      background-color: #E5E7EB;
+    }
+    .sidebar .community .community-des .community_descrip {
+      margin-bottom: 5px;
+    }
+    .sidebar .community .community-des .community_descrip .com-img {
+      padding-left: 5px;
+    }
+    .sidebar .community .community-des .community_descrip .com-title {
+      padding-right: 5px;
+    }
+    .sidebar .community .community-des .community_descrip .com-title a {
+      color: #000000;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+    }
+    .sidebar .community .community-des .community_descrip .com-title p {
+      color: #9CA3AF;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 18px;
+    }
+    .sidebar .upcomingEvent .community_heading h4 {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+    }
+    .sidebar .upcomingEvent .community_heading .common-heading-b {
+      padding: 6px;
+      border-radius: 4px;
+      background-color: #E5E7EB;
+    }
+    .sidebar .upcomingEvent .community-des .community_descrip {
+      margin-bottom: 23px;
+    }
+    .sidebar .upcomingEvent .community-des .community_descrip .com-head {
+      text-align: center;
+    }
+    .sidebar .upcomingEvent .community-des .community_descrip .com-head .common-heading {
+      padding: 2px;
+      border-radius: 10px;
+      background-color: #374151;
+    }
+    .sidebar .upcomingEvent .community-des .community_descrip .com-head  {
+      font-size: 16px;
+      color: #FFFFFF;
+      font-weight: 500;
+      line-height: 24px;
+    }
+    .sidebar .upcomingEvent .community-des .community_descrip .com-head  span {
+      color: #6B7280;
+    }
+    .sidebar .upcomingEvent .com-title a {
+      font-size: 16px;
+      color: #000000;
+      font-weight: 500;
+      line-height: 24px;
+    }
+    .sidebar .upcomingEvent .com-title p {
+      font-size: 12px;
+      color: #D1D5DB;
+      font-weight: 500;
+      line-height: 18px;
+    }
+    /* #event-page .event-sidebar .sidebar-details {
+      margin-left: 41px;
+    } */
+    #event-page .event-sidebar .sidebar-details .due .due-break {
+      margin-left: 20px;
+      height: 1px;
+      background: rgba(0, 0, 0, 0.2);
+      padding-left: 18px;
+      margin: 20px;
+    }
+    #event-page .event-sidebar .sidebar-details .due .due-title {
+      margin-bottom: 18px;
+    }
+    #event-page .event-sidebar .sidebar-details .due .due-details {
+      padding-left: 16px;
+    }
+    #event-page .event-sidebar .sidebar-details .due .due-details .due-profile {
+      padding-right: 24px;
+    }
+    #event-page .event-sidebar .sidebar-details .due .due-text .due-info {
+      margin-bottom: 25px;
+    }
+    #event-page .event-sidebar .sidebar-details .due .due-text .due-info .due-profile-title h4 {
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 36px;
+    }
+    #event-page .event-sidebar .sidebar-details .due .due-text .due-info .due-profile-date {
+      text-align: right;
+    }
+    #event-page .event-sidebar .sidebar-details .due .due-text .due-info .due-profile-date p {
+      padding-right: 10px;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+    }
+    #event-page .event-sidebar .sidebar-details .due .due-text .due-info .due-profile-date p span {
+      padding-left: 5px;
+    }
+    #event-page .event-sidebar .sidebar-details .due .due-text .due-event-details {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+    }
+    #event-page .event-sidebar .sidebar-details .today .due-break {
+      margin-left: 20px;
+      height: 1px;
+      background: rgba(0, 0, 0, 0.2);
+      margin: 20px;
+    }
+    #event-page .event-sidebar .sidebar-details .today .due-title {
+      margin-bottom: 18px;
+    }
+    #event-page .event-sidebar .sidebar-details .today .due-details {
+      padding-left: 16px;
+    }
+    #event-page .event-sidebar .sidebar-details .today .due-details .due-profile {
+      padding-right: 24px;
+    }
+    #event-page .event-sidebar .sidebar-details .today .due-text .due-info {
+      margin-bottom: 25px;
+    }
+    #event-page .event-sidebar .sidebar-details .today .due-text .due-info .due-profile-title h4 {
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 36px;
+    }
+    #event-page .event-sidebar .sidebar-details .today .due-text .due-info .due-profile-date {
+      text-align: right;
+    }
+    #event-page .event-sidebar .sidebar-details .today .due-text .due-info .due-profile-date p {
+      padding-right: 10px;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+    }
+    #event-page .event-sidebar .sidebar-details .today .due-text .due-info .due-profile-date p span {
+      padding-left: 5px;
+    }
+    #event-page .event-sidebar .sidebar-details .today .due-text .due-event-details {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+    }
+    #event-page .event-sidebar .sidebar-details .upcoming .due-break {
+      margin-left: 20px;
+      height: 1px;
+      background: rgba(0, 0, 0, 0.2);
+      margin: 20px;
+    }
+    #event-page .event-sidebar .sidebar-details .upcoming .due-title {
+      margin-bottom: 18px;
+    }
+    #event-page .event-sidebar .sidebar-details .upcoming .due-details {
+      padding-left: 16px;
+    }
+    #event-page .event-sidebar .sidebar-details .upcoming .due-details .due-profile {
+      padding-right: 24px;
+    }
+    #event-page .event-sidebar .sidebar-details .upcoming .due-text .due-info {
+      margin-bottom: 25px;
+    }
+    #event-page .event-sidebar .sidebar-details .upcoming .due-text .due-info .due-profile-title h4 {
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 36px;
+    }
+    #event-page .event-sidebar .sidebar-details .upcoming .due-text .due-info .due-profile-date {
+      text-align: right;
+    }
+    #event-page .event-sidebar .sidebar-details .upcoming .due-text .due-info .due-profile-date p {
+      padding-right: 10px;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+    }
+    #event-page .event-sidebar .sidebar-details .upcoming .due-text .due-info .due-profile-date p span {
+      padding-left: 5px;
+    }
+    #event-page .event-sidebar .sidebar-details .upcoming .due-text .due-event-details {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+    }
+  
+  /* event time / due / today / up coming / page  start */
+  
+  /******************************** scheduled event  start ********************************/
+  
+  #scheduled-event{
+    margin: 50px 0px;
+  }
+  /* #scheduled-event .scheduled-event-page .sceduled-main-page{
+    margin-left: 41px;
+  } */
+  #scheduled-event .scheduled-event-page .sceduled-main-page .sceduled-banner{
+    background-image: url(../image/scheduled\ event\ banner.png);
+    /* max-width: 640px;
+    width: 100%; */
+    text-align: center;
+    color:var(--bnner-text);
+    font-family: var(--Primary-Font);
+    border-radius: 20px;
+    padding-bottom: 34px;
+  }
+  #scheduled-event .scheduled-event-page .sceduled-main-page .sceduled-banner h5{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-top: 88px;
+    padding-bottom: 10px;
+  }
+  #scheduled-event .scheduled-event-page .sceduled-main-page .sceduled-banner h3{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.96px;
+    margin-bottom: 21px;
+  }
+  #scheduled-event .scheduled-event-page .sceduled-main-page .sceduled-banner a{
+    font-size: 14px;
+    color: var(--black);
+    font-weight: 700;
+    line-height: 20px;
+    padding: 12px 32px;
+    background-color: var(--bnner-text);
+    border-radius: 30px;
+  }
+  
+  /* popular event  start*/
+  #scheduled-event .scheduled-event-page .sceduled-main-page .popular-event{
+    margin-top: 38px;
+  }
+  #scheduled-event .scheduled-event-page .sceduled-main-page .popular-event .popular-title .title{
+    font-size: 24px;
+    color: var(--black);
+    font-weight: 700;
+    line-height: 32px; 
+  }
+  
+  #scheduled-event .scheduled-event-page .sceduled-main-page .popular-event .popular-title .see-option{
+    font-size: 16px;
+    color:var(--see-all-btn);
+    font-weight: 600;
+    line-height: 24px;
+    text-align: right;
+  }
+  
+  #scheduled-event .scheduled-event-page .sceduled-main-page .popular-event-box{
+    margin-top: 23px;
+  }
+  #scheduled-event .scheduled-event-page .sceduled-main-page .popular-event-box .popular-card .card{
+    box-shadow: 0px 13px 27px 0px rgba(20, 19, 73, 0.05);
+    border-radius: 30px;
+  }
+  #scheduled-event .scheduled-event-page .sceduled-main-page .popular-event-box .popular-card .pouplar-card-img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  #scheduled-event .scheduled-event-page .sceduled-main-page .popular-event-box .popular-card .card-text{
+    background-color: var(--bnner-text);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  #scheduled-event .scheduled-event-page .sceduled-main-page .popular-event-box .popular-card .card-text h6{
+    font-size: 18px;
+    color: var(--black);
+    font-weight: 700;
+    line-height: 28px;
+    padding-top: 12px;
+    padding-left: 12px;
+  }
+  #scheduled-event .scheduled-event-page .sceduled-main-page .popular-event-box .popular-card .card-text p{
+    font-size: 12px;
+    color: var(--popular-event-sub-clr);
+    font-weight: 400;
+    line-height: 18px;
+    padding-top: 2px;
+    padding-left: 12px;
+    padding-bottom: 18px;
+  }
+  
+  /* popular event  end*/
+  
+  /* event nearby you start */
+  #scheduled-event .scheduled-event-page .sceduled-main-page .event-popular-nearby{
+    margin-top: 38px;
+  }
+  #scheduled-event .scheduled-event-page .sceduled-main-page .event-popular-nearby .popular-title .title{
+    font-size: 24px;
+    color: var(--black);
+    font-weight: 700;
+    line-height: 32px; 
+  }
+  
+  #scheduled-event .scheduled-event-page .sceduled-main-page .event-popular-nearby .popular-title .see-option{
+    font-size: 16px;
+    color:var(--see-all-btn);
+    font-weight: 600;
+    line-height: 24px;
+    text-align: right;
+  }
+  #scheduled-event .scheduled-event-page .sceduled-main-page .popular-event-nearby-box .event-nearby-box{
+    box-shadow: 0px -1px 27px 0px rgba(20, 19, 73, 0.05), 0px -2px 25px 0px rgba(4, 17, 21, 0.00);
+    margin-top: 21px;
+    border-radius: 24px;
+  }
+  #scheduled-event .scheduled-event-page .sceduled-main-page .popular-event-nearby-box .event-nearby-box .event-nearby-card-img{
+    border-radius: 24px;
+  }
+  #scheduled-event .scheduled-event-page .sceduled-main-page .popular-event-nearby-box .event-nearby-box .event-nearby-card-text{
+    padding-left: 18px;
+  }
+  #scheduled-event .scheduled-event-page .sceduled-main-page .popular-event-nearby-box .event-nearby-box .event-nearby-card-text h5{
+    font-size: 18px;
+  color: var(--black);
+  font-weight: 700;
+  line-height: 28px;
+  }
+  #scheduled-event .scheduled-event-page .sceduled-main-page .popular-event-nearby-box .event-nearby-box .event-nearby-card-text p{
+    font-size: 12px;
+    color: var(--popular-event-sub-clr);
+    font-weight: 400;
+    line-height: 18px; 
+  }
+  #scheduled-event .scheduled-event-page .sceduled-main-page .popular-event-nearby-box .event-nearby-box .event-nearby-card-text p span{
+    color: var(--event-nearby-map-clr);
+    font-size: 18px;
+    line-height: 18px; 
+    padding-right: 2px;
+  }
+  
+  /* event nearby you end */
+  
+  /* event category start */
+  #scheduled-event .scheduled-event-page .sceduled-main-page .popular-event-category-box{
+    margin-top: 17px;
+    text-align: center;
+  }
+  #scheduled-event .scheduled-event-page .sceduled-main-page .popular-event-category-box .event-category-text{
+    margin-top: 17px;
+  }
+  #scheduled-event .scheduled-event-page .sceduled-main-page .popular-event-category-box .event-category-text p a{
+    font-size: 24px;
+    color: var(--black);
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center; 
+  }
+  /* event category end */
+  
+  /* event-sub-popUp-bar start */
+  
+   .side-scheduled-event-details{
+    margin-top: 5px;
+  }
+  
+   .side-scheduled-event-details .create-new-event-btn a{
+    background-color: var(--create-btn-bg);
+    color: var(--bnner-text);
+    padding: 14px 19px;
+    border-radius: 20px;
+    font-size: 19.573px;
+    font-weight: 700;
+    line-height: 26.097px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+  
+  }
+   .side-scheduled-event-details .create-new-event-btn a span{
+    margin-right: 15px;
+  }
+  
+   .side-scheduled-event-details .join-new-event-btn{
+    margin-top: 37px;
+  }
+   .side-scheduled-event-details .join-new-event-btn a{
+    background-color: var(--bnner-text);
+    color: var(--join-btn-clr);
+    border: 1px solid;
+    padding: 14px 50px;
+    border-radius: 20px;
+    font-size: 19.573px;
+    font-weight: 700;
+    line-height: 26.097px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+  }
+   .side-scheduled-event-details .join-new-event-btn a span{
+    margin-right: 15px;
+  }
+   .side-scheduled-event-details .detail-new-event-btn{
+    margin-top: 30px;
+    text-align: center;
+  }
+   .side-scheduled-event-details .detail-new-event-btn p{
+    font-size: 20px;
+    color: var(--black);
+    font-weight: 700;
+    line-height: 30px;
+  }
+   .side-scheduled-event-details .detail-new-event-btn span{
+    font-size: 24px;
+    color: var(--black);
+    font-weight: 700;
+    line-height: 30px;
+  }
+   .side-scheduled-event-details .profile-new-event-btn{
+    margin-top: 33px;
+  }
+   .side-scheduled-event-details .summerfestival-event{
+   margin-top: 22px; 
+  }
+   .side-scheduled-event-details .summerfestival-event h4{
+    font-size: 24px;
+    color: var(--black);
+    font-weight: 700;
+    line-height: 32px;
+  }
+   .side-scheduled-event-details .summerfestival-event p{
+    margin-top: 12px;
+    font-size: 14px;
+    color: var(--popular-event-sub-clr);
+    font-weight: 400;
+    line-height: 20px;
+  }
+   .side-scheduled-event-details .summerfestival-event .joined-member {
+   margin-top: 15px;
+   margin-bottom: 45px;
+  }
+   .side-scheduled-event-details .summerfestival-event .joined-member .joined-member-img{
+   position: relative;
+  }
+   .side-scheduled-event-details .summerfestival-event .joined-member .joined-member-img .profile-a,.profile-b{
+   position: absolute;
+   left: 33px;
+  }
+   .side-scheduled-event-details .summerfestival-event .joined-member .joined-member-img .profile-b{
+   position: absolute;
+   left: 55px;
+  }
+   .side-scheduled-event-details .summerfestival-event .joined-member .joined-member-total p{
+   color: #BFDBFE;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 20px;
+  }
+   .side-scheduled-event-details .summerfestival-event .joined-member .joined-member-price p{
+    font-size: 14px;
+    color: var(--popular-event-sub-clr);
+    font-weight: 700;
+    line-height: 20px;
+    border-radius: 16px;
+    background-color: var(--fest-dollar-bg);
+    padding: 2px 10px;
+    text-align: center;
+  }
+   .side-scheduled-event-details .summerfestival-event .joined-member .joined-member-price p span{
+    color: var(--fest-dollar-clr);
+  }
+   .side-scheduled-event-details .summerfestival-event .description-event h5, h6{
+    font-size: 20px;
+    color: var(--black);
+    font-weight: 700;
+    line-height: 30px;
+  }
+   .side-scheduled-event-details  .description-event p{
+    font-size: 14px;
+    color: var(--popular-event-sub-clr);
+    font-weight: 400;
+    line-height: 20px;
+    width: 246.492px;
+    margin-top: 8px;
+  }
+   .side-scheduled-event-details .description-event p a{
+    color: var(---fest-join-clr);
+  }
+  
+   .side-scheduled-event-details  .description-event h6{
+    margin-top: 16px;
+    margin-bottom: 9px;
+  }
+   .side-scheduled-event-details  .description-event p span{
+    color: var(--event-nearby-map-clr);
+    margin-right: 5px;
+  }
+  
+   .side-scheduled-event-details .totalprice-vent{
+    margin-top: 25px;
+  }
+   .side-scheduled-event-details .totalprice-vent .pricetag p{
+    font-size: 14px;
+    color: var(--popular-event-sub-clr);
+    font-weight: 400;
+    line-height: 20px;
+  }
+   .side-scheduled-event-details .totalprice-vent .pricetag p span{
+    color: var(--get-ticket-bg);
+    font-weight: 700;
+  }
+   .side-scheduled-event-details .totalprice-vent .pricetag p span span{
+    color: var(--black);
+    font-weight: 700;
+  }
+   .side-scheduled-event-details .totalprice-vent .get-ticket-btn a{
+    text-align: center;
+    color: var(--bnner-text);
+    font-size: 9.625px;
+    font-weight: 400;
+    line-height: 13.75px;
+    background-color:var(--get-ticket-bg) ;
+    padding: 10px 26px;
+    border-radius: 21px;
+  }
+  /* event-sub-popUp-bar end */
+  
+  /******************************** scheduled event  end ********************************/
+  
+  
+  /******************************** Create New Event Start ********************************/
+  #create-new-event{
+    margin-top: 27px;
+  }
+  #create-new-event .create-event-form{
+    text-align: center;
+    border: 1px solid var(--create-event-form-broder);
+    border-radius: 20px;
+    margin-left: 17px;
+  }
+  #create-new-event .create-event-form .create-event .create-event-logo{
+    margin-top: 21px;
+  }
+  #create-new-event .create-event-form .create-event .create-event-logo h2{
+    font-size: 30px;
+    color: var(--black);
+    font-weight: 700;
+    line-height: 36px;
+    margin-top: 18px; 
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 83px;
+  }
+  #create-new-event .create-event-form .create-event .create-event-user-form{
+    text-align: center;
+  }
+  #create-new-event .create-event-form .create-event .create-event-user-form .create-form-title{
+    /* font-size: 12px; */
+    color: var(--black);
+    font-weight: 400;
+    line-height: 18px;
+    padding-left: 74px;
+    margin-right: 100px;
+    margin-bottom: 18px;
+   
+  }
+  #create-new-event .create-event-form .create-event .create-event-user-form .create-form-input{
+    margin-right: 163px;
+    background: transparent;
+    border-radius: 10px;
+    margin-bottom: 18px;
+  }
+  #create-new-event .create-event-form .create-event .create-event-user-form textarea{
+    padding: 14px 40px 100px 20px;
+  }
+  #create-new-event .create-event-form .create-event .create-event-user-form .input-group-texarea{
+    margin-top: 33px;
+  }
+  /******************************** Create New Event End ********************************/
+
+/* ******************************end */
 
